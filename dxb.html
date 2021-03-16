@@ -1,0 +1,1366 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+     <title>Drona-eAWB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!------------------------------------------------->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!----------social------->
+<style>
+        /*********************** social *******************/
+.box16 {
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+.box16 .box-content,
+.box16:after {
+  width: 100%;
+  position: absolute;
+  left: 140%;
+}
+.box16 .box-content {
+  padding: 20px;
+  margin-bottom: 20px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.box16 .social li a,
+.box17 .icon li a {
+  border-radius: 150%;
+  font-size: 20px;
+  color: #fff;
+}
+
+.box16 .social li {
+  display: inline-block;
+}
+.box16 .social li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #6d3795;
+  margin-right: 10px;
+}
+
+.box16 .social li a:hover {
+  background: #bea041;
+}
+    </style>
+    <!--------------social-------------->
+<style>
+/*********************** best feature *******************/
+.box21 {
+  text-align: center;
+  position: relative;
+}
+.box21:after,
+.box21:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+.box21:hover:after,
+.box21:hover:before {
+  -webkit-transform: scale(170);
+  -moz-transform: scale(170);
+  -ms-transform: scale(170);
+  -o-transform: scale(170);
+  transform: scale(170);
+}
+.box21:before {
+  -o-transition: all 0.5s linear 0.3s;
+  -moz-transition: all 0.5s linear 0.3s;
+  -ms-transition: all 0.5s linear 0.3s;
+  -webkit-transition: all 0.5s linear 0.3s;
+  transition: all 0.5s linear 0.3s;
+}
+.box21:hover:before {
+  -moz-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.box21:after {
+  -o-transition: all 0.5s linear 0.6s;
+  -moz-transition: all 0.5s linear 0.6s;
+  -ms-transition: all 0.5s linear 0.6s;
+  -webkit-transition: all 0.5s linear 0.6s;
+  transition: all 0.5s linear 0.6s;
+}
+.box21:hover:after {
+  -moz-transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  -ms-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.box21 img {
+  width: 104%;
+  height: auto;
+}
+.box21 .box-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: 0 0;
+  color: #fff;
+  padding-top: 25px;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  z-index: 1;
+}
+.box21:hover .box-content {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -moz-transition-delay: 0.4s;
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  -ms-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.box21 .title {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.box21 .description {
+  font-size: 13.5px;
+  font-style: italic;
+  padding: 0 2px;
+  margin: 16px 20px;
+}
+.box21 .read-more {
+  display: block;
+  width: 120px;
+  background: #178993;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 990px) {
+  .box21 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .box21 .box-content {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .box21 .title {
+    padding-bottom:5px;
+  }
+}
+
+    </style>
+    <!------------footer------------>
+<style>
+#foot{
+font-size:20px;
+color:Black;
+font-family:bold;
+ font-weight: 700;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  }
+.smart-scroll {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+    transform:translateY(0);
+}
+.stick {transform:translateY(-100%);}
+.scrolled-up {transform:translateY(0) !important;}
+</style>
+    <!----------------footer----->
+
+<!------------pricing------------>
+    <style>
+.pricingTable {
+    text-align: center;
+    background: #fff;
+    margin: 0 -15px;
+    box-shadow: 0 0 10px #ababab;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: #cad0de;
+    transform: scale(1);
+    transition: all .5s ease 0s
+}
+
+.pricingTable:hover {
+    transform: scale(1.05);
+    z-index: 1
+}
+
+.pricingTable .pricingTable-header {
+    padding: 40px 0;
+    background: #f5f6f9;
+    border-radius: 10px 10px 50% 50%;
+    transition: all .5s ease 0s
+}
+
+.pricingTable:hover .pricingTable-header {
+    background: #ff9624
+}
+
+.pricingTable .pricingTable-header i {
+    font-size: 50px;
+    color: #858c9a;
+    margin-bottom: 10px;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .price-value {
+    font-size: 35px;
+    color: #ff9624;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .month {
+    display: block;
+    font-size: 14px;
+    color: #cad0de
+}
+
+.pricingTable:hover .month,
+.pricingTable:hover .price-value,
+.pricingTable:hover .pricingTable-header i {
+    color: #fff
+}
+
+.pricingTable .heading {
+    font-size: 24px;
+    color: #ff9624;
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+
+.pricingTable .pricing-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px
+}
+
+.pricingTable .pricing-content ul li {
+    line-height: 30px;
+    color: #a7a8aa
+}
+
+.pricingTable .pricingTable-signup a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: #ffa442;
+    text-transform: uppercase;
+    transition: all .3s ease 0s
+}
+
+.pricingTable .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #ffa442
+}
+
+.pricingTable.blue .heading,
+.pricingTable.blue .price-value {
+    color: #4b64ff
+}
+
+.pricingTable.blue .pricingTable-signup a,
+.pricingTable.blue:hover .pricingTable-header {
+    background: #4b64ff
+}
+
+.pricingTable.blue .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #4b64ff
+}
+
+.pricingTable.red .heading,
+.pricingTable.red .price-value {
+    color: #ff4b4b
+}
+
+.pricingTable.red .pricingTable-signup a,
+.pricingTable.red:hover .pricingTable-header {
+    background: #ff4b4b
+}
+
+.pricingTable.red .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #ff4b4b
+}
+
+.pricingTable.green .heading,
+.pricingTable.green .price-value {
+    color: #40c952
+}
+
+.pricingTable.green .pricingTable-signup a,
+.pricingTable.green:hover .pricingTable-header {
+    background: #40c952
+}
+
+.pricingTable.green .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #40c952
+}
+
+.pricingTable.blue:hover .price-value,
+.pricingTable.green:hover .price-value,
+.pricingTable.red:hover .price-value {
+    color: #fff
+}
+
+@media screen and (max-width:990px) {
+    .pricingTable {
+        margin: 0 0 20px
+    }
+}
+</style>
+    <style>
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.toggle, .toggler {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.toggler {
+  color: #ddd;
+  transition: .2s;
+  font-weight: bold;
+}
+
+.toggler--is-active {
+  color: #9D1726;
+}
+
+.b {
+  display: block;
+}
+
+.toggle {
+  position: relative;
+  width: 80px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #9D1726;
+  overflow: hidden;
+  box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+.check {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 6;
+}
+
+.check:checked ~ .switch {
+  right: 2px;
+  left: 57.5%;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: .08s, 0s;
+}
+
+.switch {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 57.5%;
+  background-color: #fff;
+  border-radius: 36px;
+  z-index: 1;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: 0s, .08s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.pricing-section {
+    padding: 110px 0 150px 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.pricing-columns .wrapper-full {
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+}
+.pricing-columns #pricing-chart, .pricing-columns-both #pricing-chart {
+    margin-top: 100px;
+    float: left;
+    position: relative;
+}
+.pricing-columns #pricing-chart #smaller-plans, .pricing-columns-both #pricing-chart #smaller-plans {
+    display: block;
+}
+.pricing-columns #pricing-chart .plan, .pricing-columns-both #pricing-chart .plan {
+    float: left;
+    background-color: #fafafa;
+    position: relative;
+    color: #454545;
+    padding: 14px;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    width: 207px;
+}
+.pricing-columns #pricing-chart .plan:first-child, .pricing-columns-both #pricing-chart .plan:first-child {
+    border-left: 1px solid #e1e1e1;
+}
+.pricing-columns #pricing-chart .plan:before,
+.pricing-columns-both #pricing-chart .plan:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    left: -1px;
+    top: 0;
+    background-color: #233E48;
+    width: 207px;
+}
+.pricing-columns #pricing-chart .plan .price, .pricing-columns-both #pricing-chart .plan .price {
+    font-size: 26px;
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 17px;
+}
+.pricing-columns #pricing-chart .plan .price .dollar, .pricing-columns-both #pricing-chart .plan .price .dollar {
+    top: -10px;
+    letter-spacing: -1px;
+    left: 3px;
+}
+.pricing-columns #pricing-chart .plan .price .amount, .pricing-columns-both #pricing-chart .plan .price .amount {
+    font-size: 30px;
+    font-weight: 600;
+}
+.pricing-columns #pricing-chart .plan .price .slash, .pricing-columns-both #pricing-chart .plan .price .slash {
+    font-weight: 600;
+    left: -2px;
+}
+.pricing-columns #pricing-chart .plan .price .month, .pricing-columns-both #pricing-chart .plan .price .month {
+    font-weight: 600;
+    left: -7px;
+}
+.pricing-columns #pricing-chart .plan ul, .pricing-columns-both #pricing-chart .plan ul {
+    padding: 0 18px;
+    margin-bottom: 40px;
+}
+.pricing-columns #pricing-chart .plan ul li, .pricing-columns-both #pricing-chart .plan ul li {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.pricing-columns #pricing-chart .plan ul li span, .pricing-columns-both #pricing-chart .plan ul li span {
+    color: #9e9e9e;
+    display: inline-block;
+    margin-left: 7px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.pricing-columns #pricing-chart .plan a.sign-up, .pricing-columns-both #pricing-chart .plan a.sign-up {
+  width: 100%;
+    padding: 13px;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #9e9e9e;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    clear: left;
+    letter-spacing: 1.5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.pricing-section .sign-up {
+    padding: 17px 50px;
+    text-transform: uppercase;
+    background-color: #93cc76;
+    color: white;
+    letter-spacing: 0.1em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    white-space: pre;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+
+.pricing-columns #pricing-chart .popular, .pricing-columns-both #pricing-chart .popular {
+    width: 274px;
+    position: relative;
+    top: -30px;
+    background-color: white;
+    margin-left: -2px;
+    right: 0;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+.pricing-columns #pricing-chart .popular:before, .pricing-columns-both #pricing-chart .popular:before {
+    width: 274px;
+    background-color: #9D1726;
+    height: 7px;
+}
+.pricing-columns #pricing-chart .popular a.sign-up, .pricing-columns-both #pricing-chart .popular a.sign-up {
+    background-color: #9D1726;
+    border: none;
+    color: #ffffff;
+}
+.pricing-columns #pricing-chart .popular .price .amount, .pricing-columns-both #pricing-chart .popular .price .amount {
+    font-size: 60px;
+}
+.bandwidth {
+    display: block;
+    color: #9e9e9e;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+}
+.pricing-columns #pricing-chart .popular p.pop-plan, .pricing-columns-both #pricing-chart .popular p.pop-plan {
+    color: #454545;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+.pricing-columns #pricing-chart .popular .price, .pricing-columns-both #pricing-chart .popular .price {
+    margin-bottom: 0px;
+}
+.pricing-columns #pricing-chart .plan a.sign-up:hover, .pricing-columns-both #pricing-chart .plan a.sign-up:hover {
+    border: 0;
+    color: #fff;
+    opacity: 0.8;
+}
+.hide{
+  display: none;
+}
+
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans",sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.pricing-table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: min(1600px, 100%);
+  margin: auto;
+}
+
+.pricing-card{
+  flex: 1;
+  max-width: 360px;
+  background-color: #fff;
+  margin: 20px 10px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: #2d2d2d;
+  transition: .3s linear;
+}
+
+.pricing-card-header{
+  background-color: #0fbcf9;
+  display: inline-block;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 0 0 20px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: .4s linear;
+}
+
+.pricing-card:hover .pricing-card-header{
+  box-shadow: 0 0 0 26em #0fbcf9;
+}
+
+.price{
+  font-size: 70px;
+  color: #0fbcf9;
+  margin: 40px 0;
+  transition: .2s linear;
+}
+
+.price sup, .price span{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.pricing-card:hover ,.pricing-card:hover .price{
+  color: #fff;
+}
+
+.pricing-card li{
+  font-size: 16px;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.order-btn{
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  border: 2px solid #0fbcf9;
+  color: #0fbcf9;
+  padding: 18px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: .3s linear;
+}
+
+.order-btn:hover{
+  background-color: #0fbcf9;
+  color: #fff;
+}
+
+@media screen and (max-width:1100px){
+  .pricing-card{
+    flex: 50%;
+  }
+}
+</style>
+<!------------pricing------------>
+
+<!---------------contact------------>
+    <style>
+#image{
+ margin-left:50px;
+ margin-top:1%;
+width:86%;
+}
+#contact-us {
+  padding: 160px 0px;
+}
+
+#contact-us h5 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  line-height: 26px;
+}
+
+.contact-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6F8BA4;
+  letter-spacing: 0.6px;
+  line-height: 26px;
+}
+
+.contact-text p {
+  margin-bottom: 28px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  color: #777;
+  font-size: 14px;
+  border: 1px solid #eee;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: 30px;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+  padding: 20px;
+}
+@media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331!important;
+            }
+        }
+.view{height:100%}.navbar{background-color:rgba(0,0,0,.2)}
+
+#signin{
+ position: absolute;
+  top: 10;
+  left: 80%;
+  height: 40%;
+  width: 30%;
+}
+
+#signupfree{
+ position: absolute;
+  top: 10;
+  left: 86%;
+  height: 40%;
+  width: 30%;
+
+}
+#req{
+ position: absolute;
+  top: 250;
+  left: 55%;
+  height: 20%;
+  width: 35%;
+
+}
+#get{
+ position: absolute;
+  top: 250;
+  left: 10%;
+  height: 20%;
+  width: 35%;
+
+}
+
+
+div {
+    display: block;
+}
+h3 {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 46px;
+}
+
+
+.section-intro-pricing {
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 22px 34px 0 rgba(0,0,0,0.04);
+}
+
+.video-play-button {
+  position: absolute;
+  z-index: 5;
+  top: 67%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 32px;
+  height: 44px;
+  /* background: #fa183d; */
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #ba1f24;
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #fa183d;
+  border-radius: 50%;
+  transition: all 200ms;
+}
+
+.video-play-button:hover:after {
+  background-color: darken(#fa183d, 10%);
+}
+
+.video-play-button img {
+  position: relative;
+  z-index: 3;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.video-play-button span {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 0;
+  height: 0;
+  border-left: 32px solid #fff;
+	border-top: 22px solid transparent;
+	border-bottom: 22px solid transparent;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+
+
+.video-overlay {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.80);
+  opacity: 0;
+  transition: all ease 500ms;
+}
+
+.video-overlay.open {
+  position: fixed;
+  z-index: 1000;
+  opacity: 1;
+}
+
+.video-overlay-close {
+  position: absolute;
+  z-index: 1000;
+  top: 15px;
+  right: 20px;
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.video-overlay-close:hover {
+  color: #fa183d;
+}
+
+.video-overlay iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  /* width: 90%; */
+  /* height: auto; */
+  box-shadow: 0 0 15px rgba(0,0,0,0.75);
+}
+
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.nav {
+    position:relative;
+}
+
+.nav li {
+    float:left;
+    position:relative;
+}
+
+
+.nav li:hover > a {
+    background:#ffe6e6;
+    border-color:#6E67A6;
+    color:#fff;
+}
+
+.nav li:hover ul.subs {
+    height:auto;
+    width:300px;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 120%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+</style>
+<!---------------contact------------>
+
+
+
+</head>
+<body>
+<!--------------------video--->
+<a id="play-video" class="video-play-button" href="#">
+  <span></span>
+</a>
+<div id="video-overlay" class="video-overlay">
+  <a class="video-overlay-close">&times;</a>
+</div>
+<header>
+        <div class="overlay" ></div>
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="/videos/airo.mov" type="video/mp4">
+
+  </video>
+          <div class="container h-50" >
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+      <center> <h1 class="display-3"><div id="intro" class="view">
+
+            <div class="mask rgba-black-strong">
+
+                <div class="container-fluid d-flex align-items-center justify-content-center h-100" style="margin-top:93px">
+
+                    <div class="row d-flex justify-content-center text-center">
+
+                          <div class="col-md-10" >
+
+
+                            <h2 class="display-4 font-weight-bold white-text pt-5 mb-2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"></h2>
+
+                            <h4 class="white-text my-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"></h4>
+                              <button type="button"id="get"  class="btn btn-outline-light"  data-aos="fade-up-right" data-aos-duration="1000"></button>
+                              <button type="button" id="req"  class="btn btn-outline-danger"  data-aos="fade-up-left" data-aos-duration="1000"></button>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+</h1></center>
+
+             <p class="lead mb-0"></p>
+      </div>
+    </div>
+
+
+
+  </div>
+</header>
+<!--------------------video--->
+
+
+
+<!-----------------------navigation bar-------------->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar smart-scroll">
+
+            <div class="container" style="margin-left:20px">
+
+
+                <a class="navbar-brand" href="#"> </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+
+
+                    <ul class="navbar-nav mr-auto">
+                        <div class="example">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Dubai International Airport</a>
+                                  </li>
+                                  
+                                </ul>
+                            </div>
+
+
+                    </ul>
+                    
+                        </ul>
+
+
+
+                </div>
+                           <li class="nav-item" style="padding:3px" >
+  <select name="airport-code " id="Air-Code" onChange="SelectRedirect();">
+    <option value="">Select Airport </option>
+    <option value="TIR">TIR - Tirupati International Airport</option>
+    <option value="CJB">CJB - Coimbatore International Airport</option>
+    <option value="SAG">SAG - Shirdi International Airport</option>
+    <option value="IXC">IXC - Chandigarh International Airport</option>
+    <option value="DXB">DXB - Dubai International Airport</option>
+    <option value="MLE">MLE - Male' International Airport</option>
+  </select>
+                            </li>
+                  <!-- <li class="nav-item" style="padding:3px" >
+                          <a href="{{ url_for('user.login') }}" type="button" class="btn btn-outline-light" >Signup free</a>
+                          </li> -->
+            </div>
+
+
+
+
+
+        </nav>
+<!-----------------------navigation bar------------->
+<br>.</br>
+<!------------------------home--------------->
+<section id="home" style="padding:5%;background-color:#F2F4F4;height:120%">
+                <h2 class="mb-5 font-weight-bold text-center" >About Us
+</h2>
+                <div class="row">
+                    <div class="col-md-6 " >
+                        <div style="text-align:justify;padding-left:13%" data-aos="fade-right" data-aos-duration="1300">
+                            <h5>Dubai International Airport is the primary international airport serving Dubai, United Arab Emirates, and is the world's busiest airport by international passenger traffic.</h5>
+                            <div class="carousel-item active"  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        
+                        </div>
+                         <div class="carousel-item active"  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <img width=180% height=40% src="img\dxb.jpg">
+                    </div>
+
+                    </div>
+                    
+
+                </div>
+
+           </section>
+<!------------------------home--------------->
+<!------------------------best features----------->
+<section id="best" style="padding:5%;background-color:#F8F9F9" >
+    <div class="container mt-40 mb-30" >
+      <h3 class="text-center" >Best Features</h3>
+       <div class="row d-flex justify-content-center mb-4" >
+            <div class="col-md-8" >
+              <h5>Rooster Technologies gives a high priority to help its customers achieve their business objectives by providing innovative, best in class IT solutions as well as its services. We aim to excel by providing cutting edge technological solutions. Our core values include truthfulness with extreme hard work & elegance, to share & care of our customer needs.</h5>
+                </div>
+        </div>
+  <div class="row mt-30">
+    <div class="col-md-4 col-sm-6">
+      <div class="box21">
+        <img src="http://bestjquery.com/tutorial/hover-effect/demo95/images/img-1.jpg" alt="" data-aos="fade-down-right">
+        <div class="box-content">
+          <h4 class="title">Experience</h4>
+          <p class="description" >A team of enthusiastic individuals with a spirit coming together to form Rooster Technology.Initially converging on the name of Collaborate & Grow.it resembled the main ideology of the company to collaborate with entities aspiring to bring about innovations on various fronts.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="box21">
+        <img src="http://bestjquery.com/tutorial/hover-effect/demo95/images/img-2.jpg" alt="" data-aos="fade-down-left">
+        <div class="box-content">
+          <h4 class="title">Happiness</h4>
+          <p class="description">Customer is King. Entire Rooster believes in the 'Customer Delight' foundational concept. We don't just service, but we proactively sit along with Customer at the drawing table from conceptualizing an idea - to build & operate - to support & maintenance.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="box21">
+        <img src="http://bestjquery.com/tutorial/hover-effect/demo95/images/img-3.jpg" alt="" data-aos="fade-down-left">
+        <div class="box-content">
+          <h4 class="title">Marketing</h4>
+          <p class="description" >Our Management conducts regular Confidence Building Measures with our Customer Management and System Users to have a cordial business relationship.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!------------------------best features----------->
+
+
+<section style="padding:7px;">
+  <div class="row mt-30">
+
+    <div class="col-md-4 col-sm-6" style="margin-left:-13%;">
+        <img src="data:image/jpeg;base64,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" style="width:360%;height:100%;" >
+      <div class="box16">
+        <div class="box-content">
+        <ul class="social" >
+<center><h3 style="font-weight:300px;color:black;font-size:30px">Get social Contact</h3></center>
+
+           <li><a href="#"><i class="fa fa-facebook" style="padding-top:10px"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" style="padding-top:10px"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" style="padding-top:10px"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus" style="padding-top:10px"></i></a></li>
+          </ul>
+            <h7>COPYRIGHT © 2021 <a>Dubai International Airport</a></h7>
+            <h7>Powered By :<a href="http://rooster-tech.com/" style="color:red">Rooster Technology</a></h7>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+$('#play-video').on('click', function(e){
+  e.preventDefault();
+  $('#video-overlay').addClass('open');
+  $("#video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/O7_lAg_J9Xc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+});
+
+$('.video-overlay, .video-overlay-close').on('click', function(e){
+  e.preventDefault();
+  close_video();
+});
+
+$(document).keyup(function(e){
+  if(e.keyCode === 27) { close_video(); }
+});
+
+function close_video() {
+  $('.video-overlay.open').removeClass('open').find('iframe').remove();
+};</script>
+  <script>
+  AOS.init();
+</script>
+<script>
+    var e = document.getElementById("filt-monthly"),
+    d = document.getElementById("filt-hourly"),
+    t = document.getElementById("switcher"),
+    m = document.getElementById("monthly"),
+    y = document.getElementById("hourly");
+
+e.addEventListener("click", function(){
+  t.checked = false;
+  e.classList.add("toggler--is-active");
+  d.classList.remove("toggler--is-active");
+  m.classList.remove("hide");
+  y.classList.add("hide");
+});
+
+d.addEventListener("click", function(){
+  t.checked = true;
+  d.classList.add("toggler--is-active");
+  e.classList.remove("toggler--is-active");
+  m.classList.add("hide");
+  y.classList.remove("hide");
+});
+
+t.addEventListener("click", function(){
+  d.classList.toggle("toggler--is-active");
+  e.classList.toggle("toggler--is-active");
+  m.classList.toggle("hide");
+  y.classList.toggle("hide");
+})
+
+</script>
+<script>
+    if ($('.smart-scroll').length > 0) {
+
+        var lastScrollTop = 0;
+        $(window).scroll(function() {
+
+            var scroll_top = $(window).scrollTop();
+
+            if (scroll_top > 1) { // think, this will work a little bit better to catch scrolltop more then 0(1)
+                $(".smart-scroll").addClass("stick");
+            } else {
+                $(".smart-scroll").removeClass("stick");
+            }
+
+            if (scroll_top > lastScrollTop){
+                $(".smart-scroll").removeClass("scrolled-up");
+            } else {
+                $(".smart-scroll").addClass("scrolled-up");
+            }
+            lastScrollTop = st;
+
+    });
+
+}
+
+function SelectRedirect(){
+// ON selection of section this function will work
+//alert( document.getElementById('Air-Code').value);
+
+switch(document.getElementById('Air-Code').value)
+{
+case "TIR":
+window.location="tir.html";
+break;
+
+case "CJB":
+window.location="cjb.html";
+break;
+
+case "SAG":
+window.location="sag.html";
+break;
+
+case "IXC":
+window.location="ixc.html";
+break;
+
+case "DXB":
+window.location="dxb.html";
+break;
+
+case "MLE":
+window.location="mle.html";
+break;
+
+
+default:
+window.location="index.html"; // if no selection matches then redirected to home page
+break;
+}// end of switch 
+}
+</script>
+
+</body>
+</html>
